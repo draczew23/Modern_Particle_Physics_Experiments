@@ -8,5 +8,7 @@ The lecture plan:
 
 * Simulation tools:
   *[Introduction to ROOT package](01_Introduction_to_ROOT.ipynb)
+  
   *[Monte Carlo methods](02_Monte_Carlo_methods.ipynb)
+  
   *[Physics event generation](03_Event_generation.ipynb)

@@ -1,5 +1,4 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akalinow/Modern_Particle_Physics_Experiments)
-2
 
 
 # Modern Particle Physics Experiments

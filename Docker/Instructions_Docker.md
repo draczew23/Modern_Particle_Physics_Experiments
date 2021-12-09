@@ -2,7 +2,7 @@ Instructions for starting a Docker service at local computer.
 The Docker service allows to run all the code on a local machine. The Docer service will run an ```image```
 containing all the necessary software packages.
 
-Full list of the packages available in provided image can be found [here](https://hub.docker.com/repository/docker/akalinow/root-fedora31)
+Full list of the packages available in provided image can be found [here](https://hub.docker.com/r/akalinow/root-fedora34)
 
 
 1. Instruction hot to install the Docker application on 
@@ -17,22 +17,16 @@ Full list of the packages available in provided image can be found [here](https:
 
 3. After starting the container one gets acces to a terminal window:
 
----
-[jupyter@07fe5696fbe3 ~]$ 
----
+![terminal_1.png](terminal_1.png)
+
 
 4. Starting the jupyter server:
 
----
-[jupyter@07fe5696fbe3 /]$ cd
-[jupyter@07fe5696fbe3 ~]$ ./start-notebook.sh 
----
+![terminal_2.png](terminal_2.png)
 
 In the terminal window you will see an information that server has started, and is available under URL similar to:
 
----
-http://127.0.0.1:8000/?token=0e4f4e2560cd4a409ec01c2317ca26cc5cbd09ea7ad2413
----
+![terminal_3.png](terminal_3.png)
 
 Please copy this URL to web browser to start the jupyter client.
 

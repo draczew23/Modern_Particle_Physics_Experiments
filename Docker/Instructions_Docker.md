@@ -24,7 +24,7 @@ Full list of the packages available in provided image can be found [here](https:
 
 ![terminal_2.png](terminal_2.png)
 
-In the terminal window you will see an information that server has started, and is available under URL similar to:
+In the terminal window you will see an information that server has started, and is available under given URL:
 
 ![terminal_3.png](terminal_3.png)
 

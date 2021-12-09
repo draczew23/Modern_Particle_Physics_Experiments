@@ -2,7 +2,7 @@ Instructions for starting a Docker service at local computer.
 The Docker service allows to run all the code on a local machine. The Docer service will run an ```image```
 containing all the necessary software packages.
 
-Full list of the packages available in provided image can be found [here](https://hub.docker.com/r/akalinow/root-fedora34)
+Full list of the packages available in provided image can be found [here](https://hub.docker.com/r/akalinow/root-fedora35)
 
 
 1. Instruction hot to install the Docker application on 

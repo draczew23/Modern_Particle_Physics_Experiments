@@ -12,3 +12,7 @@ The lecture plan:
   * [Monte Carlo methods](02_Monte_Carlo_methods.ipynb)
   
   * [Physics event generation](03_Event_generation.ipynb)
+
+
+The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).
+Instructions are [here](Docker/Instructions_docker.md)

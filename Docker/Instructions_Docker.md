@@ -28,7 +28,7 @@ In the terminal window you will see an information that server has started, and 
 
 ![terminal_3.png](terminal_3.png)
 
-Please copy the URL starting with "127.0.0.01" to web browser to start the jupyter client.
+Please copy the URL starting with "127.0.0.1" to web browser to start the jupyter client.
 
 5. All files created within the container in ```scratch``` directory are visible in the host system:
 on Windows on the desktop in directory ```Docker```, on Linux in the root directory, ```\```.

@@ -19,11 +19,11 @@ If needed create new session:
 - host - `neutronx`,
 - session type - `LXDE`,
 
-![x2go_session.png](x2go_session.png)
+<img src="x2go_session.png" alt="x2go-seesion" width="600"/>
 
 Then open the session with your credentials.
 
-![x2go_login.png](x2go_login.png)
+<img src="x2go_login.png" alt="x2go-login" width="600"/>
 
 After that a new window with your desktop on the server should appear.
 
@@ -31,9 +31,9 @@ After that a new window with your desktop on the server should appear.
 
 Download the starting script:
 
-    ```
-    wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
-    ```
+```sh
+wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
+ ```
 
 and run it:
 

@@ -1,16 +1,39 @@
 # Run instructions
 
-During the class we will use multiple packages and programs specific for high energy physics. To avoid the burden of installing and configuring them on every machine, we will use virtual enviroments known as containers. 
+During the class we will use multiple packages and programs specific for high energy physics. To avoid the burden of installing and configuring them on every machine, we will use virtual environments known as containers. 
 
 You can check the full list of packages installed in the image we will use: [akalinow/root-fedora35](https://hub.docker.com/r/akalinow/root-fedora35).
 
 ## Running at computer lab
 
-During classes at the computer lab we will use Apptainer/Singularity containers. Download the starting script:
+During classes at the computer lab we will use Apptainer/Singularity containers. 
 
-```sh
-wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
+### Connect to server 
+Connect to `neutronx` server using `x2goclient` application:
+
 ```
+x2goclient
+```
+
+If needed create new session:
+- host - `neutronx`,
+- session type - `LXDE`,
+
+![x2go_session.png](x2go_session.png)
+
+Then open the session with your credentials.
+
+![x2go_login.png](x2go_login.png)
+
+After that a new window with your desktop on the server should appear.
+
+### Run Apptainer/Singularity
+
+Download the starting script:
+
+    ```
+    wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
+    ```
 
 and run it:
 
@@ -20,10 +43,10 @@ and run it:
 
 After this command, the prompt should change to `Apptainer>` which indicates that you are now inside the container.
 
-Inside the container you can start the `jupyter` with:
+Inside the container you can start the `jupyter-lab` with:
 
 ``` sh
-jupyterlab 
+jupyter-lab 
 ```
 
 The `jupyter` should write a bunch of lines to the terminal. Find and copy the URL starting with `http://127.0.0.1`, then open a web browser and paste it.
@@ -36,7 +59,7 @@ Depending on your system you can use either Apptainer/Singularity (Linux) or Doc
 
 ### Apptainer/Singularity (Linux only)
 
-[Installation instructions](https://apptainer.org/user-docs/master/quick_start.html). Once installed you should be able to start it the same way as [at computer lab](#running-at-computer-lab).
+[Installation instructions](https://apptainer.org/user-docs/master/quick_start.html). Once installed you should be able to start it the same way as [at computer lab](#run-apptainersingularity).
 
 ### Docker (Windows, MacOs, Linux)
 
@@ -48,7 +71,7 @@ Depending on your system you can use either Apptainer/Singularity (Linux) or Doc
     
     **Note**: after the installation one has to restart the computer.
 
-2. Dowload the starting script and run it to start the container:
+2. Download the starting script and run it to start the container:
     - [runDocker.bat](runDocker.bat) on Windows,
     - [runDocker.sh](runDocker.sh) on MacOS and Linux:
         ```sh
@@ -58,11 +81,11 @@ Depending on your system you can use either Apptainer/Singularity (Linux) or Doc
         . runDocker.sh
         ```
 
-3. After starting the container one gets acces to a terminal window:
+3. After starting the container one gets access to a terminal window:
 
     ![terminal_1.png](terminal_1.png)
 
-4. Start the jupyter server with the `start-jupyter.sh` command:
+4. Start the `jupyter-lab` with the `start-jupyter.sh` command:
 
     ```sh
     cd

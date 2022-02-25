@@ -41,6 +41,13 @@ and run it:
 . runSingularity.sh
 ```
 
+⚠️ the first time you can encounter following error 'FATAL:  ... no space left on device'. In that case try:
+
+```sh
+mkdir -p $HOME/tmp
+APPTAINER_TMPDIR=$HOME/tmp . runSingularity.sh
+```
+
 After this command, the prompt should change to `Apptainer>` which indicates that you are now inside the container.
 
 Inside the container you can start the `jupyter-lab` with:

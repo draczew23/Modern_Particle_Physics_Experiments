@@ -1,1 +1,1 @@
-singularity run  docker://akalinow/root-fedora35
+singularity run docker://akalinow/root-fedora35

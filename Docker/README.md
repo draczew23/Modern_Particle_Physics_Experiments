@@ -35,18 +35,20 @@ Download the starting script:
 wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
  ```
 
-and run it:
-
-```sh
-. runSingularity.sh
-```
-
-⚠️ the first time you can encounter following error 'FATAL:  ... no space left on device'. In that case try:
+for the first time launch the container with following commands:
 
 ```sh
 mkdir -p $HOME/tmp
 APPTAINER_TMPDIR=$HOME/tmp . runSingularity.sh
 ```
+
+later you can run it with just:
+
+```sh
+. runSingularity.sh
+```
+⚠️ in case of 'FATAL:  ... no space left on device' error launch the container with the same commands as for the first time.
+
 
 After this command, the prompt should change to `Apptainer>` which indicates that you are now inside the container.
 

@@ -37,15 +37,17 @@ wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experime
 
 and run it:
 
-```sh
-. runSingularity.sh
-```
-
 ⚠️ the first time you can encounter following error 'FATAL:  ... no space left on device'. In that case try:
 
 ```sh
 mkdir -p $HOME/tmp
 APPTAINER_TMPDIR=$HOME/tmp . runSingularity.sh
+```
+
+any other time just run:
+
+```sh
+. runSingularity.sh
 ```
 
 After this command, the prompt should change to `Apptainer>` which indicates that you are now inside the container.

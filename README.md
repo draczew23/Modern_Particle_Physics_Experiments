@@ -7,7 +7,7 @@ Notebooks for the Modern Particle Physics Experiments at Faulty of Physics, Univ
 The lecture plan:
 
 * Simulation tools:
-  * [Introduction to ROOT package](01_Introduction_to_ROOT.ipynb)
+  * [Introduction to ROOT package](01_Introduction_to_ROOT/01_Introduction_to_ROOT.ipynb)
   
   * [Monte Carlo methods](02_Monte_Carlo_methods.ipynb)
   

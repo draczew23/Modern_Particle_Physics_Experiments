@@ -13,6 +13,13 @@ The lecture plan:
   
   * [Physics event generation](03_Event_generation/03_Event_generation.ipynb)
 
+## Getting started
 
 The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).
 Instructions are [here](Docker/Instructions_Docker.md)
+
+This repository can be cloned with:
+
+```
+git clone --branch 2021_2022_students_version https://github.com/akalinow/Modern_Particle_Physics_Experiments.git
+```

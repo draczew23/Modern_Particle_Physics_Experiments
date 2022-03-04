@@ -29,26 +29,33 @@ After that a new window with your desktop on the server should appear.
 
 ### Run Apptainer/Singularity
 
-Download the starting script:
+**During the first lecture use a quick recipe:**
+
+```
+cp ~akalinow/Public/910f0274fbf1c39f2d739ab5a3ac6872019c230cf1c1b102b83e2c871c2f4f21 ./
+./910f0274fbf1c39f2d739ab5a3ac6872019c230cf1c1b102b83e2c871c2f4f21
+```
+
+Later (from home) please create your own version of the above file:
+
+* download the starting script:
 
 ```sh
 wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
  ```
 
-for the first time launch the container with following commands:
+* at the first run the file is created, and you may encounter following error 'FATAL:  ... no space left on device'. In that case try:
 
 ```sh
 mkdir -p $HOME/tmp
 APPTAINER_TMPDIR=$HOME/tmp . runSingularity.sh
 ```
 
-later you can run it with just:
+* any other time just run:
 
 ```sh
 . runSingularity.sh
 ```
-⚠️ in case of 'FATAL:  ... no space left on device' error launch the container with the same commands as for the first time.
-
 
 After this command, the prompt should change to `Apptainer>` which indicates that you are now inside the container.
 

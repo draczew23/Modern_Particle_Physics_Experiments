@@ -8,24 +8,13 @@ You can check the full list of packages installed in the image we will use: [aka
 
 During classes at the computer lab we will use Apptainer/Singularity containers. 
 
-### Connect to server 
-Connect to `neutronx` server using `x2goclient` application:
+### Connect to the server 
 
 ```
-x2goclient
+ssh login@zcobl.fuw.edu.pl
 ```
 
-If needed create new session:
-- host - `neutronx`,
-- session type - `LXDE`,
-
-<img src="x2go_session.png" alt="x2go-seesion" width="600"/>
-
-Then open the session with your credentials.
-
-<img src="x2go_login.png" alt="x2go-login" width="600"/>
-
-After that a new window with your desktop on the server should appear.
+where for `login` use your own login name
 
 ### Run Apptainer/Singularity
 
@@ -41,7 +30,7 @@ Later (from home) please create your own version of the above file:
 * download the starting script:
 
 ```sh
-wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022/Docker/runSingularity.sh
+wget https://raw.githubusercontent.com/akalinow/Modern_Particle_Physics_Experiments/2021_2022_students_version/Docker/runSingularity.sh
  ```
 
 * at the first run the file is created, and you may encounter following error 'FATAL:  ... no space left on device'. In that case try:
@@ -62,10 +51,10 @@ After this command, the prompt should change to `Apptainer>` which indicates tha
 Inside the container you can start the `jupyter-lab` with:
 
 ``` sh
-jupyter-lab 
+jupyter-lab --no-browser --ip=0.0.0.0
 ```
 
-The `jupyter` should write a bunch of lines to the terminal. Find and copy the URL starting with `http://127.0.0.1`, then open a web browser and paste it.
+The `jupyter` should write a bunch of lines to the terminal. Find and copy the URL starting with `http://zcobl3`, then open a web browser and paste it.
 
 ## Running on private computer
 

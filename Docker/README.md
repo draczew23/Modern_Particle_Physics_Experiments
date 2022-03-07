@@ -11,7 +11,7 @@ During classes at the computer lab we will use Apptainer/Singularity containers.
 ### Connect to the server 
 
 ```
-ssh login@zcobl.fuw.edu.pl
+ssh login@zcobl3.hep.fuw.edu.pl
 ```
 
 where for `login` use your own login name

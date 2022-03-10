@@ -16,3 +16,17 @@ The lecture plan:
 
 The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).
 Instructions are [here](Docker/Instructions_Docker.md)
+
+This repository can be:
+
+* cloned with:
+
+```
+git clone --branch 2021_2022_students_version https://github.com/akalinow/Modern_Particle_Physics_Experiments.git
+```
+
+* updated with:
+
+```
+git pull origin 2021_2022_students_version 
+```

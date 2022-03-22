@@ -7,13 +7,14 @@ Notebooks for the Modern Particle Physics Experiments at Faulty of Physics, Univ
 The lecture plan:
 
 * Simulation tools:
-  * [Introduction to ROOT package](01_Introduction_to_ROOT/01_Introduction_to_ROOT.ipynb)
+  * [Introduction to ROOT package](01_Introduction_to_ROOT.ipynb)
   
   * [Monte Carlo methods](02_Monte_Carlo_methods.ipynb)
   
   * [Physics event generation](03_Event_generation/03_Event_generation.ipynb)
 
-## Getting started
+* Detector concepts
+  * [Particle tracking](04_Tracking)
 
 The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).
 Instructions are [here](Docker/Instructions_Docker.md)
@@ -31,4 +32,3 @@ git clone --branch 2021_2022_students_version https://github.com/akalinow/Modern
 ```
 git pull origin 2021_2022_students_version 
 ```
-

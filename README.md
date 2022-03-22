@@ -13,6 +13,8 @@ The lecture plan:
   
   * [Physics event generation](03_Event_generation/03_Event_generation.ipynb)
 
+* Detector concepts
+  * [Particle tracking](04_Tracking)
 
 The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).
 Instructions are [here](Docker/Instructions_Docker.md)

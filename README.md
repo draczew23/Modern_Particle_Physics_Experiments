@@ -13,9 +13,9 @@ The lecture plan:
   
   * [Physics event generation](03_Event_generation/03_Event_generation.ipynb)
 
-* Detector concepts
+* Detector concepts:
   * [Particle tracking](04_Tracking)
-  * Calorimetry 
+  * [Calorimeters](05_Calorimeters) 
   * Particle identification and large detector systems
 
 The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).

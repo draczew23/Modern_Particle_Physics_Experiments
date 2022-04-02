@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akalinow/Modern_Particle_Physics_Experiments/blob/2021_2022)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akalinow/Modern_Particle_Physics_Experiments/blob/2021_2022_students_version)
 
 
 # Modern Particle Physics Experiments
@@ -13,8 +13,10 @@ The lecture plan:
   
   * [Physics event generation](03_Event_generation/03_Event_generation.ipynb)
 
-* Detector concepts
+* Detector concepts:
   * [Particle tracking](04_Tracking)
+  * [Calorimeters](05_Calorimeters) 
+  * Particle identification and large detector systems
 
 The software necessary for the exercises can be run using the container technology on any computer (Linux, Windows, Mac).
 Instructions are [here](Docker/Instructions_Docker.md)

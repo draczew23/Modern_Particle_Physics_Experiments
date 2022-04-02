@@ -31,7 +31,6 @@ jupyter-lab --no-browser --ip=zcobl3.hep.fuw.edu.pl
 ```
 
 The `jupyter` should write a bunch of lines to the terminal. Find and copy the URL starting with `http://zcobl3`, then open a web browser and paste it.
-**In the browser please complete the computer URL to zcobl3.hep.fuw.edu.pl**
 
 ## Running on private computer
 
